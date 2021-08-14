@@ -9,7 +9,7 @@ public class HomeResource {
 
 	@GetMapping("/")
 	public String getAll() {
-		return "<h1>Welcome ! </h1>";
+		return "<h1>Welcome Guest ! </h1>";
 	}
 
 	@GetMapping("/user/{name}")
